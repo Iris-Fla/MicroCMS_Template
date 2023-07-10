@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Nav from '@/components/Nav';
 import './globals.css';
 import styles from './layout.module.css';
+import { KiwiMaru } from './fonts';
 
 export const metadata = {
   metadataBase: new URL(process.env.BASE_URL || 'http://localhost:3000'),
@@ -31,10 +32,12 @@ export default async function RootLayout({ children }: Props) {
   return (
     <html lang="ja">
       <body>
-        <Header />
-        <Nav tags={tags.contents} />
-        <main className={styles.main}>{children}</main>
-        <Footer />
+        <div className={KiwiMaru.className}>
+          <Header />
+          <Nav tags={tags.contents} />
+          <div className={styles.main}>{children}</div>
+          <Footer />
+        </div>
       </body>
     </html>
   );
