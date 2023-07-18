@@ -22,7 +22,7 @@ export default function ArticleListItem({ article }: Props) {
             />
             <source
               type="image/webp"
-              srcSet={`${article.thumbnail?.url}?fm=webp&fit=crop&w=240&h=126 1x, ${article.thumbnail?.url}?fm=webp&fit=crop&w=240&h=126&dpr=2 2x`}
+              srcSet={`${article.thumbnail?.url}?fm=webp&fit=crop&w=288&h=162 1x, ${article.thumbnail?.url}?fm=webp&fit=crop&w=288&h=162&dpr=2 2x`}
             />
             <img
               src={article.thumbnail?.url || `/noimage.png`}
