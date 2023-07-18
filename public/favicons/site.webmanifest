@@ -1,6 +1,6 @@
 {
-    "name": "meru_icon",
-    "short_name": "meru",
+    "name": "メルのサイト",
+    "short_name": "メルのサイト",
     "icons": [
         {
             "src": "/favicons/android-chrome-192x192.png",
