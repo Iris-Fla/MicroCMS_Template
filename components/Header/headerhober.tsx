@@ -2,7 +2,13 @@
 import { AnimatePresence } from 'framer-motion';
 import { motion } from 'framer-motion';
 import type { AppProps } from 'next/app'
-export default function Motion({ children }) {
+import { ReactNode } from "react";
+
+interface Props {
+    children: ReactNode;
+}
+
+export default function Motion({ children }: Props) {
     return (
         <motion.div
             initial={{ opacity: 0 }}

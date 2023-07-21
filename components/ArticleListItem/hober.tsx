@@ -1,6 +1,14 @@
 "use client"
 import { motion } from 'framer-motion';
-export default function Motion({ children }) {
+import { ReactNode } from "react";
+
+interface Props {
+    children: ReactNode;
+}
+
+export default function Motion(
+    { children }: Props
+) {
     return (
         <motion.div
             whileHover={{
