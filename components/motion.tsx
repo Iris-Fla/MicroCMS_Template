@@ -11,9 +11,9 @@ interface Props {
 export default function Motion({ children }: Props) {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 150 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 0 }}
+            initial={{ y: 150 }}
+            animate={{ y: 0 }}
+            exit={{ y: 0 }}
         >
             {children}
         </motion.div>
