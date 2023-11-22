@@ -98,19 +98,31 @@
   overflow-x: auto;
 }
 
+/*コード(追加)*/
+.content code {
+  background-color: rgb(53, 49, 42);/*背景色*/
+  color: rgb(238, 238, 238);/*文字色*/
+  padding: 5px;/*余白*/
+  font-family:sans-serif;/*フォント*/
+  border-radius:  var(--border-radius) var(--border-radius) var(--border-radius) var(--border-radius) ;/*外枠の丸み*/
+}
+
+/*コードブロック*/
 .content pre > code {
-  background-color: var(--color-bg-code);
+  background-color: rgb(53, 49, 42);
   display: block;
   overflow-x: auto;
   padding: 16px;
+  border-radius:  0 var(--border-radius) var(--border-radius) var(--border-radius) ;
 }
 
+/*コードブロックのファイル名*/
 .content div[data-filename]::before {
   display: inline-block;
-  background-color: #2a2830;
+  background-color: rgb(49, 5, 5);
   content: attr(data-filename);
   margin: 1em 0 0;
-  font-family: menlo, inconsolata, monospace;
+  font-family:sans-serif;
   color: #fff;
   font-size: 0.8rem;
   padding: 4px 16px;

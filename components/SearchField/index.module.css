@@ -6,6 +6,7 @@
   height: 40px;
   box-sizing: border-box;
   background: url('/search.svg') no-repeat 16px center;
+  background-color: rgb(255, 250, 243);
 }
 
 @media (max-width: 640px) {

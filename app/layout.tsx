@@ -42,7 +42,7 @@ export default async function RootLayout({ children }: Props) {
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff" />
             </head>
-            <body>
+            <body className={styles.bg}> {/* 追加 */}
                 <Motion>
                     <AnimatePresenceMotion>
                         <div className={KiwiMaru.className}>
