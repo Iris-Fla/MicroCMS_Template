@@ -1,5 +1,5 @@
-import { Kiwi_Maru } from '@next/font/google';
+import { Kiwi_Maru } from 'next/font/google';
 export const KiwiMaru = Kiwi_Maru({
-  subsets: ['cyrillic'],
-  weight: '400',
+    subsets: ['cyrillic'],
+    weight: '400',
 });
