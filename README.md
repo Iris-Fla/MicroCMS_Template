@@ -7,7 +7,7 @@ microCMS 様の"シンプルなブログのテンプレート"を改変したサ
 - 記事のサムネイルサイズを大きく
 - 標準のフォントを GoogleFonts に[(記事)](https://merusite-iris-fla.vercel.app/articles/next_font)
 - 画面遷移時のアニメーション[(記事)](https://merusite-iris-fla.vercel.app/articles/next_animation)
-- 見た目の変更等[(記事)]()
+- 見た目の変更等[(記事)](https://merusite-git-main-iris-fla.vercel.app/articles/microcms_custom)
 
 ## 環境変数の設定
 
